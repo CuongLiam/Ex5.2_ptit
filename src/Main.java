@@ -7,7 +7,7 @@ public class Main {
 
         shapes.add(new Circle(3, "blue", true));
         shapes.add(new Rectangle(2,3, "red", false));
-
+        shapes.add(new Circle()); // 3 doi tuong dung theo yeu cau
         for (int i = 0; i < shapes.size(); i++){
             System.out.println(shapes.get(i));
         }
